@@ -221,4 +221,20 @@ Class MyImageWidget extends StatelessWidget {
                      );
                   }
               }
+Import ‘package:flutter/material.dart’;
+Class MyImageWidget extends StatelessWidget {
+       @override
+          Widget build(BuildContext context) {
+               Return Scaffold(
+                     appBar: AppBar(
+                            title: Text(“Jugo de caña”),
+                     ),
+                     body: Column(
+                          children: [
+                               Image.asset(“assets/images/Jugo.png”),
+                           ],
+                        ),
+                     );
+                  }
+              }
 
